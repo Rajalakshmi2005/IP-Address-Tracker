@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rubik:wght@500&display=swap'); </style>
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  body::-webkit-scrollbar{
+    display: none;
+  }
+  #whole-container{
+      height:100%;
+      width:100%;
+      background-color:white;
+    position: absolute;
+    
+  }
+  #header{
+      height:25%;
+      width:100%;
+  }
+  #headerDiv{
+    margin: auto;
+  }
+  h1{
+    position: absolute;
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 30px;
+width: 282px;
+height: 30px;
+left:780px;
+top: 33px;
+text-align: center;
+/* identical to box height, or 94% */
+letter-spacing: -0.285714px;
+color: #FFFFFF;
+}
+  #bg_Image{
+    height:310px;
+    width:100%;
+  }
+  #search-bar{
+    position: absolute;
+    width: 555px;
+    height: 58px;
+    left: 31%;
+    top: 11%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2C2C2C;
+    text-align: left;
+    /* mix-blend-mode: normal; */
+    /* opacity: 0.5; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  #arrow-icon{
+    background-color: black;
+    height:40px;
+    width:40px;
+    margin-top:5%; 
+    margin-top: 10%; 
+  }
+  #mapDiv{
+    position: absolute;
+    z-index: 2;
+    height:70%;
+    width:100%;
+    /* border:1px solid black; */
+    margin-top:3%;
+    background-size: cover;
+  
+  }
+  #arrow_div{
+    position: absolute;
+    background-color: #2C2C2C;
+    height: 63px;
+    width: 58px;
+    left: 60.2%;
+    top: 11%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+  }
+  #arrow_svg{
+    position: absolute;
+    left: 48.23%;
+    right: 4.68%;
+    top: 39.66%;
+    bottom: 39.66%;
+    }
+    /* #ip_addressDiv{
+        position: absolute;
+height:200px;
+width:800px;
+background-color: #ed0e0e;
+
+    } */
+#searchBox{
+
+    height: 10%;
+    width: 33%;
+    margin-top: -8%;
+    margin-left: 34%;
+}
+
+#ip_addressDiv{
+    position: fixed;
+    z-index: 3;
+    width: 65%;
+    height: 13%;
+    background: white;
+    margin-top: 3%;
+    margin-left: 15%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+border-radius: 5px;
+} 
+  #ipAddress{
+    width: 25%;
+    height: 100%;
+   border-right:1px solid #c1bfbf;
+  }
+  #location{
+    width: 25%;
+    height: 100%;
+    border-right:1px solid #c1bfbf;
+  }
+  #timeZone{
+    width: 25%;
+    height: 100%;
+    border-right:1px solid #c1bfbf;
+  }
+  #isp{
+    width: 25%;
+    height: 100%;
+    
+  }
+  #ip_addressDiv p{
+    color: #868585;
+    font-family: 'Rubik';
+    font-style:normal;
+    text-align: center;
+    font-weight:400;
+}
+#ip_addressDiv h2{
+  color: #070000;
+  font-family: 'Rubik';
+  font-style:normal;
+  text-align: center;
+  font-weight:400;
+}

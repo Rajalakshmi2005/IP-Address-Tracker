@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ip address tracker</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway&family=Rubik:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+
+ <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+</head>
+<body>
+    <div id="whole-container">
+        <div id="header">
+           <img src="Assets/pattern-bg.png" id="bg_Image"/>
+           <div id="headerDiv">
+            <div id="ip_addressDiv">
+
+                <div id="ipAddress">
+                   
+                </div>
+                <div id="location">
+                   
+                </div>
+                <div id="timeZone">
+                  
+                </div>
+                <div id="isp">
+                   
+                </div>
+                
+               </div>
+            <h1>IP Address Tracker</h1>
+            <div id="searchBox">
+             <input type="text" placeholder="Search for any IP address or domain..." id="search-bar"/> 
+             <div id="responseDiv"></div>
+            <div onclick="getIP()" id="arrow_div">
+            <img src="Assets/icon-arrow.svg"  id="arrow_svg"/>
+            </div> 
+             </div>
+
+            </div>
+           </div>
+          
+           <div id="map">
+
+           </div>
+         
+         
+        
+    </div>
+    <script src="js/track.js"></script>
+</body>
+</html>
